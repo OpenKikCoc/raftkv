@@ -1,0 +1,19 @@
+workspace = "."
+file = "./config.toml"
+# mode = "all"
+
+[GRPCConfig]
+HttpPort = "9500"
+CertPath = "test/tls/server.crt"
+KeyPath  = "test/tls/server.key"
+Host     = "server.grpc.io"         # for test
+[WebConfig]
+HttpPort   = "80"
+HttpsPort  = "443"
+StaticPath = "./test/static/"
+CertPath   = "test/tls/server.crt"
+KeyPath    = "test/tls/server.key"
+Host       = "server.grpc.io"         # for test
+
+[LogConfig]
+Level = "debug"
