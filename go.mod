@@ -13,7 +13,7 @@ require (
 	github.com/unrolled/secure v1.0.8
 	go.uber.org/zap v1.15.0
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381
-	google.golang.org/grpc v1.30.0
+	google.golang.org/grpc v1.31.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	xorm.io/core v0.7.3 // indirect
 )

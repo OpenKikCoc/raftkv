@@ -14,6 +14,7 @@ type Config struct {
 	WebConfig  WebConfig  `toml:"WebConfig"`
 	GRPCConfig GRPCConfig `toml:"GRPCConfig"`
 	LogConfig  LogConfig  `toml:"LogConfig"`
+	DBConfig   DBConfig   `toml:"DBConfig"`
 	rwmtx      *sync.RWMutex
 }
 
@@ -25,6 +26,7 @@ func defaultConfig() Config {
 		WebConfig:  defaultWebConfig(),
 		GRPCConfig: defaultGRPCConfig(),
 		LogConfig:  defaultLogConfig(),
+		DBConfig:   defaultDBConfig(),
 		rwmtx:      &sync.RWMutex{},
 	}
 	return ret
