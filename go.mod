@@ -19,7 +19,7 @@ require (
 	github.com/stretchr/testify v1.8.1
 	github.com/unrolled/secure v1.0.8
 	go.uber.org/zap v1.15.0
-	golang.org/x/net v0.2.0
+	golang.org/x/net v0.7.0
 	google.golang.org/grpc v1.51.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	xorm.io/core v0.7.3 // indirect
