@@ -15,7 +15,7 @@ require (
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/pingcap/badger v1.5.0
 	github.com/pingcap/kvproto v0.0.0-20230206112125-0561adc37543
-	github.com/pkg/errors v0.8.1
+	github.com/pkg/errors v0.9.1
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	github.com/spf13/cobra v1.0.0
 	github.com/stretchr/testify v1.8.3
@@ -23,7 +23,7 @@ require (
 	github.com/unrolled/secure v1.0.8
 	go.uber.org/zap v1.15.0
 	golang.org/x/net v0.10.0
-	google.golang.org/grpc v1.51.0
+	google.golang.org/grpc v1.53.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.2.8 // indirect
