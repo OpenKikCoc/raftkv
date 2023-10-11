@@ -22,7 +22,7 @@ require (
 	github.com/ugorji/go v1.1.7 // indirect
 	github.com/unrolled/secure v1.0.8
 	go.uber.org/zap v1.15.0
-	golang.org/x/net v0.10.0
+	golang.org/x/net v0.17.0
 	google.golang.org/grpc v1.53.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
